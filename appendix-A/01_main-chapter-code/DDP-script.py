@@ -15,6 +15,7 @@ import platform
 import torch.multiprocessing as mp
 from torch.utils.data.distributed import DistributedSampler
 from torch.nn.parallel import DistributedDataParallel as DDP
+# distributed functions
 from torch.distributed import init_process_group, destroy_process_group
 
 
